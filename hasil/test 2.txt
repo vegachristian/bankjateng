@@ -1,0 +1,4 @@
+SELECT `idNasabah`, `KodeCabang`, `NamaNasabah`, `TanggalLahir`, `TanggalInsert`, `TanggalUpdate` FROM `data_nasabah` WHERE CONDITION1 AND CONDITION2 AND CONDITION3
+CONDITION1 = TanggalLahir = TanggalInsert
+CONDITION2 = TanggalInsert = TanggalUpdate
+CONDITION3 = TanggalUpdate = TanggalInsert
